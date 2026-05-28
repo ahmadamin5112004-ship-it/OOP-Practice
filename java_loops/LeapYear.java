@@ -1,9 +1,10 @@
-package java_basics;
+package java_loops;
 
 import java.util.Scanner;
 
 public class LeapYear {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter year: ");
@@ -14,5 +15,7 @@ public class LeapYear {
         } else {
             System.out.println(year + " is not a Leap Year");
         }
+
+        sc.close();
     }
 }
