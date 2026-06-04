@@ -2,7 +2,7 @@ package java_discussion10;
 
 import java.util.Date;
 
-// Student class
+
 class Student {
     int id;
     String name;
@@ -21,7 +21,7 @@ class Student {
     }
 }
 
-// Instructor class
+
 class Instructor {
     int id;
     String name;
@@ -43,7 +43,7 @@ class Instructor {
     }
 }
 
-// Course class
+
 class Course {
     int id;
     String syllabus;
@@ -69,7 +69,7 @@ class Course {
     }
 }
 
-// CourseOffering class
+
 class CourseOffering {
     Student student;
     Instructor instructor;
@@ -114,11 +114,11 @@ class CourseOffering {
     }
 }
 
-// Main class
+
 public class program {
     public static void main(String[] args) {
 
-        // Create objects
+  
         Student s1 = new Student(101, "Rahim", "CSE");
 
         Instructor i1 = new Instructor(
@@ -144,7 +144,7 @@ public class program {
                 2026,
                 "SP");
 
-        // Display information
+      
         co1.displayOffering();
     }
 }
